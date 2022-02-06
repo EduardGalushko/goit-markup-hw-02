@@ -5,11 +5,16 @@
   --primary-with-color: #ffffff;
   --section-background-color: #f5f4fa;
   --footer-background-color: #2f303a;
+  --button-accent-color: #188ce8;
 }
 
 /*--start studio--*/
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--primary-with-color);
 }
 
 .list {
@@ -93,10 +98,9 @@ a {
 
 .button:hover,
 .button:focus {
-  background-color: #188ce8;
+  background-color: var(--button-accent-color);
 }
 .features-title {
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -113,7 +117,6 @@ a {
   color: var(--tittle-text-color);
 }
 .title {
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -128,7 +131,6 @@ a {
   background: var(--primary-with-color);
 }
 .title-name {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -192,7 +194,6 @@ a {
   color: var(--primary-with-color);
 }
 .title-name-cards {
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
