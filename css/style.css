@@ -6,6 +6,7 @@
   --section-background-color: #f5f4fa;
   --footer-background-color: #2f303a;
   --button-accent-color: #188ce8;
+  --contact-footer-color: rgba(255, 255, 255, 0.6);
 }
 
 /*--start studio--*/
@@ -63,15 +64,21 @@ a {
 }
 .site-nav-contact {
   color: var(--tittle-text-color);
-  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav-contact:hover,
 .site-nav-contact:focus {
   color: var(--accent-color);
 }
 
-.hero {
+.section-hero {
   background-color: var(--footer-background-color);
+}
+
+.hero-title {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -166,6 +173,20 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-with-color);
+}
+
+.contact-footer {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--contact-footer-color);
+}
+
+.contact-footer:hover,
+.contact-footer:focus {
+  color: var(--accent-color);
 }
 /*--END STUDIO--*/
 
